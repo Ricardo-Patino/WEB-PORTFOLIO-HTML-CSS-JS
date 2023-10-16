@@ -455,8 +455,8 @@
             <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <form action="https://formsubmit.co/el/jojule" method="POST"> <!-- el/jojule se puede remover y poner el correo donde quiera que lleguen las respuestas -->
+            <div class="col">
+                <form action="https://formsubmit.co/el/jojule" method="POST"> <!-- el/jojule se puede remover y poner el correo donde quiera que lleguen las respuestas -->
                     <input type="hidden" name="_subject" value="Nuevo Correo!">
                     <input type="text" placeholder="Name / Nombre" required>
                     <input type="text" placeholder="Phone / Teléfono">
@@ -464,11 +464,12 @@
                     <input type="text" placeholder="Concern / Tema" required>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Message / Mensaje"></textarea>
                     <input type="file" name="attachment" accept="image/png, image/jpeg">
-                    <button onclick="alert('Correo Enviado!');">
+                    <input type="hidden" name="_next" value="https://portfolio-ricardopatino.netlify.app/thanks.html">
+                    <button onclick="alert('Correo Enviado! Pronto le responderé');">
                         Enviar <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
-                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    
                 </form>
 
                 </div>
