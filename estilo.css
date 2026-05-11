@@ -70,10 +70,7 @@ html{
 .video-container iframe{
     width: 100%;
     max-width: 950px;
-
-    /* FORMATO PANORAMICO */
     aspect-ratio: 16 / 9;
-
     height: auto;
 
     border-radius: 20px;
@@ -107,6 +104,8 @@ html{
         max-width: 100%;
         border-radius: 15px;
     }
+
+}
 
 /* SECCION I N I C I O */
 .inicio{
