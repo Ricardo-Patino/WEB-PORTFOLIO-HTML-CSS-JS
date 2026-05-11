@@ -55,6 +55,34 @@ html{
     cursor: pointer;
     display: none;
 }
+
+/* VIDEO PORTFOLIO */
+.video-container{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe{
+    width: 85%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 25px rgba(0,255,255,0.5);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px){
+
+    .video-container iframe{
+        width: 95%;
+        height: 250px;
+    }
+
+}
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
