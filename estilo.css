@@ -56,33 +56,60 @@ html{
     display: none;
 }
 
-/* VIDEO PORTFOLIO */
+/* VIDEO SECTION */
 .video-container{
-    margin-top: 40px;
+    margin-top: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 .video-container iframe{
-    width: 85%;
-    max-width: 900px;
-    height: 500px;
+    width: 100%;
+    max-width: 950px;
+
+    /* FORMATO PANORAMICO */
+    aspect-ratio: 16 / 9;
+
+    height: auto;
+
     border-radius: 20px;
     border: 3px solid #00ffff;
-    box-shadow: 0 0 25px rgba(0,255,255,0.5);
+
+    box-shadow:
+        0 0 10px rgba(0,255,255,0.5),
+        0 0 25px rgba(0,255,255,0.3);
+
+    background: #000;
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 768px){
+/* TABLETS */
+@media screen and (max-width: 992px){
 
     .video-container iframe{
-        width: 95%;
-        height: 250px;
+        max-width: 750px;
     }
 
 }
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+
+    .video-container{
+        margin-top: 30px;
+    }
+
+    .video-container iframe{
+        width: 100%;
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+}
+
+
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
