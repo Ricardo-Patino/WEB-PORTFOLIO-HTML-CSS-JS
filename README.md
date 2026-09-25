@@ -2,6 +2,7 @@
 CV y PORTFOLIO WEB  HTML - CSS - JS
 
 
+Future Note for me...
 To change and use as a template:
 1. Create 3 files on your code editor program, name them under the names of: index.html, stilo.css, and script.js.
 2. Copy and paste each code file.
