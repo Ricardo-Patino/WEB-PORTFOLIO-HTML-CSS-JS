@@ -1,4 +1,4 @@
-let menuVisible = false;
+/* let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
@@ -39,3 +39,30 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+*/
+
+let menuVisible = false;
+const nav = document.getElementById("nav");
+
+// Muestra u oculta el menú en móvil
+function mostrarOcultarMenu() {
+    nav.className = menuVisible ? "" : "responsive";
+    menuVisible = !menuVisible;
+}
+
+// Oculta el menú al seleccionar una opción
+function seleccionar() {
+    nav.className = "";
+    menuVisible = false;
+}
+
+// Anima las barras de skills una sola vez, al entrar en pantalla
+function efectoHabilidades() {
+    const skills = document.getElementById("skills");
+    if (window.innerHeight - skills.getBoundingClientRect().top >= 300) {
+        document.querySelectorAll(".progreso").forEach(b => b.classList.add("animar"));
+        window.removeEventListener("scroll", efectoHabilidades);
+    }
+}
+window.addEventListener("scroll", efectoHabilidades);
+efectoHabilidades();
