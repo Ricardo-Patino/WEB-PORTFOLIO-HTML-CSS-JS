@@ -1182,7 +1182,7 @@ html{
 .portfolio .publicacion:hover{
     transform: translateY(-6px);
     box-shadow: 0 10px 25px rgba(0,0,0,.35);
-    background-color: #1a1f22;
+    background-color: #1e2326;
 }
 .portfolio .publicacion .pub-meta{
     display: flex;
@@ -1200,7 +1200,7 @@ html{
     margin-right: 6px;
 }
 .portfolio .publicacion .pub-medio{
-    background-color: #252A2E;
+    background-color: #1e2326;
     padding: 4px 10px;
     border-radius: 5px;
     font-weight: bold;
