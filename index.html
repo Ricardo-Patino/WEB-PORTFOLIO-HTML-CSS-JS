@@ -1,699 +1,363 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Ricardo Patiño - Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ricardo Patiño - FullStack Software Engineer, CISCO Renewal Engineer. Portfolio, experience and publications.">
+<title>Ricardo Patiño - Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-    <!-- MENU ENCABEZADO -->
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Ricardo Patiño</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
-    </div>
+<!-- MENU -->
+<div class="contenedor-header">
+<header>
+<div class="logo"><a href="#inicio">Ricardo Patiño</a></div>
+<nav id="nav">
+<ul>
+<li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+<li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+<li><a href="#publicaciones" onclick="seleccionar()">PUBLICATIONS</a></li>
+<li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+</ul>
+</nav>
+<button class="nav-responsive" type="button" aria-label="Open menu" onclick="mostrarOcultarMenu()"><i class="fa-solid fa-bars"></i></button>
+</header>
+</div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <h1>Ricardo Patiño</h1>
-            <h2> FullStack - Software Engineer</h2>
-            <div class="redes">
-                <a href="https://www.facebook.com/ricardo.p.jimenez.5"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://wa.me/+50688795100"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/ricardopatino1/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://rickpatinor.wixsite.com/hotelvillagrace"><i class="fa-solid fa-globe"></i></a>
-                <a href="https://github.com/Ricardo-Patino?tab=repositories"><i class="fa-brands fa-github"></i></a>
-            </div>
-            
-         <!-- VIDEO -->
-        <div class="video-container">
-            <iframe 
-                src="https://www.youtube.com/embed/jFv-Mhp4BHs?si=3vE8OQE20r7bEstt"
-                title="Ricardo Patiño Profile Video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-        </div>
-            </div>
-    </section>
+<!-- INICIO -->
+<section id="inicio" class="inicio">
+<div class="contenido-banner">
+<h1>Ricardo Patiño</h1>
+<h2>FullStack - Software Engineer</h2>
+<div class="redes">
+<a href="https://www.facebook.com/ricardo.p.jimenez.5" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="https://wa.me/+50688795100" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+<a href="https://www.linkedin.com/in/ricardopatino1/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="https://rickpatinor.wixsite.com/hotelvillagrace" aria-label="Website" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>
+<a href="https://github.com/Ricardo-Patino?tab=repositories" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+</div>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/jFv-Mhp4BHs?si=3vE8OQE20r7bEstt" title="Ricardo Patiño Profile Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</section>
 
-    <!-- About me SECCION -->
-    <section id="sobremi" class="sobremi">
-        <class="contenido-seccion">
-            <h2>About Me</h2>
-            <p>Hello, my name is <B><u>Ricardo Patiño.</u></B> I am a software developer and web programmer. And I have the following skills: Web Developer | SQL Alchemy | Python | React.js | REST APIs | Flask | Analysis capacity | Data Management | I am passionate about developing and creating innovative solutions.</p>
-            </br>
-            <p>Computer Development Engineer with experience in support and solutions in CISCO Networks. I have built applications with React.js and Python. Using HTML, CSS, Ajax, Bootstrap and JavaScript. I have experience in Management, administrative tasks, Marketing, and Customer Service.</p>
-            </br>
+<!-- ABOUT ME -->
+<section id="sobremi" class="sobremi">
+<div class="contenido-seccion">
+<h2>About Me</h2>
+<p>Hello, my name is <b><u>Ricardo Patiño.</u></b> I am a software developer and web programmer. And I have the following skills: Web Developer | SQL Alchemy | Python | React.js | REST APIs | Flask | Analysis capacity | Data Management | I am passionate about developing and creating innovative solutions.</p>
+<p>Computer Development Engineer with experience in support and solutions in CISCO Networks. I have built applications with React.js and Python. Using HTML, CSS, Ajax, Bootstrap and JavaScript. I have experience in Management, administrative tasks, Marketing, and Customer Service.</p>
+<div class="fila">
+<div class="col">
+<h3>Personal Information</h3>
+<ul>
+<li><strong>DoB</strong> 26-02-1988</li>
+<li><strong>Phone</strong> <a href="tel:+50688795100">+506 88795100</a> (click to call)</li>
+<li><strong>Email</strong> <a href="mailto:rickpatinor@gmail.com">rickpatinor@gmail.com</a> (click to email)</li>
+<li><strong>Website</strong> <a href="https://rickpatinor.wixsite.com/hotelvillagrace" target="_blank" rel="noopener noreferrer">Hotel Villa Grace Website</a></li>
+<li><strong>Address</strong> Heredia, Costa Rica</li>
+<li><strong>Position</strong> <span>CISCO Renewal Engineer - FullStack Web Developer</span></li>
+</ul>
+</div>
+<div class="col">
+<h3>Interests</h3>
+<div class="contenedor-intereses">
+<div class="interes"><i class="fa-solid fa-gamepad"></i><span>GAMES</span></div>
+<div class="interes"><i class="fa-solid fa-headphones"></i><span>MUSIC</span></div>
+<div class="interes"><i class="fa-solid fa-plane"></i><span>TRAVEL</span></div>
+<div class="interes"><i class="fa-brands fa-apple"></i><span>MAC<br>WINDOWS<br>LINUX</span></div>
+<div class="interes"><i class="fa-solid fa-person-running"></i><span>SPORTS</span></div>
+<div class="interes"><i class="fa-solid fa-book"></i><span>BOOKS</span></div>
+<div class="interes"><i class="fa-solid fa-car"></i><span>CARS</span></div>
+<div class="interes"><i class="fa-solid fa-camera"></i><span>PHOTOS</span></div>
+</div>
+</div>
+</div>
+<h3 class="titulo-lenguajes">Programming Languages</h3>
+<ul class="lenguajes">
+<li>Java</li><li>Python</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>ReactJS</li><li>Bootstrap</li><li>Context</li><li>Flux</li><li>Hooks</li>
+</ul>
+<a class="btn" href="https://github.com/Ricardo-Patino/WEB-PORTFOLIO-HTML-CSS-JS/raw/main/WEB-PORTFOLIO-HTML-CSS-JS/Resume%20Ricardo%20Pati%C3%B1o%202026.pdf" target="_blank" rel="noopener noreferrer">Download CV <i class="fa-solid fa-download"></i></a>
+</div>
+</section>
 
-            <div class="fila">
-                <!-- personal data  -->
-                <div class="col">
-                    <div class="col"></div>
-                    <h3>Personales Information</h3>
-                    <ul>
-                        <li>
-                            <strong>DoB</strong>
-                            26-02-1988
-                        </li>
-                        <li>
-                            <strong>Phone</strong>
-                            <a href="tel:+50688795100">+506 88795100</a> (click to call)
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            <a href="mailto:rickpatinor@gmail.com" class="pv-contact-info__contact-link link-without-visited-state t-14" target="_blank" rel="noopener noreferrer"> rickpatinor@gmail.com </a>(click to email)
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            <a href="https://rickpatinor.wixsite.com/hotelvillagrace">Hotel Villa Grace Website</a>
-                        </li>
-                        <li>
-                            <strong>Address</strong>
-                            Heredia, Costa Rica
-                        </li>
-                        <li>
-                            <strong>Possition</strong>
-                            <span>CISCO Renewal Engineer - FullStack Web Developer</span>
-                        </li>
-                    </ul>
-                </div>
+<!-- SKILLS -->
+<section class="skills" id="skills">
+<div class="contenido-seccion">
+<h2>Skills</h2>
+<div class="fila">
+<div class="col">
+<h3>Technical Skills</h3>
+<div class="skill"><span>JavaScript</span><div class="barra-skill"><div class="progreso" style="--w:85%"><span>85%</span></div></div></div>
+<div class="skill"><span>HTML &amp; CSS</span><div class="barra-skill"><div class="progreso" style="--w:90%"><span>90%</span></div></div></div>
+<div class="skill"><span>REACT-JS LIBRARIES</span><div class="barra-skill"><div class="progreso" style="--w:95%"><span>95%</span></div></div></div>
+<div class="skill"><span>WordPress</span><div class="barra-skill"><div class="progreso" style="--w:90%"><span>90%</span></div></div></div>
+<div class="skill"><span>CMS</span><div class="barra-skill"><div class="progreso" style="--w:90%"><span>90%</span></div></div></div>
+</div>
+<div class="col">
+<h3>Professional Skills</h3>
+<div class="skill"><span>Communication</span><div class="barra-skill"><div class="progreso" style="--w:90%"><span>90%</span></div></div></div>
+<div class="skill"><span>Teamwork</span><div class="barra-skill"><div class="progreso" style="--w:85%"><span>85%</span></div></div></div>
+<div class="skill"><span>Creativity</span><div class="barra-skill"><div class="progreso" style="--w:100%"><span>100%</span></div></div></div>
+<div class="skill"><span>Dedication</span><div class="barra-skill"><div class="progreso" style="--w:100%"><span>100%</span></div></div></div>
+<div class="skill"><span>Project Management</span><div class="barra-skill"><div class="progreso" style="--w:95%"><span>95%</span></div></div></div>
+</div>
+</div>
+</div>
+</section>
 
+<!-- CURRICULUM -->
+<section id="curriculum" class="curriculum">
+<div class="contenido-seccion">
+<h2>Curriculum</h2>
+<div class="fila">
+<div class="col izquierda">
+<h3>Education</h3>
+<div class="item izq">
+<h4>Full-Stack Software Development</h4>
+<span class="casa">4Geeks Academy</span>
+<span class="fecha">2021</span>
+<p>Full-Stack development course. Academic grid:</p>
+<ul class="lista-simple">
+<li>HTML+CSS</li><li>Bootstrap</li><li>JavaScript</li><li>ReactJS</li><li>Context</li><li>Flux</li><li>Hooks</li><li>Python</li><li>Flask</li><li>REST APIs</li><li>SQLAlchemy</li><li>Algorithms</li>
+</ul>
+<p>Institution licensed by the United States Department of Education and selected by the Ministry of Science, Technology and Telecommunications of Costa Rica.</p>
+<div class="conectori"><div class="circuloi"></div></div>
+</div>
+<div class="item izq">
+<h4>CISCO Networking</h4>
+<span class="casa">CISCO Academy</span>
+<span class="fecha">2015 - 2016</span>
+<p>Networking / Internet<br>Skills: Networking, VLANs, WLAN, Network security.</p>
+<div class="conectori"><div class="circuloi"></div></div>
+</div>
+<div class="item izq">
+<h4>Business Administration</h4>
+<span class="casa">Latina Universidad - Costa Rica</span>
+<span class="fecha">2007 - 2010</span>
+<p>Professional development in the area of administration. Finance, Marketing, Accounting, Management, HR.<br>Skills: Small business management · Project management · Sales Management</p>
+<div class="conectori"><div class="circuloi"></div></div>
+</div>
+</div>
 
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Interests</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>GAMES</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSIC</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>TRAVEL</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-apple"></i>
-                            <span>MAC</br>Windows</br>LINUX</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-running"></i>
-                            <span>SPORTS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>BOOKS/READ</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>CARS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>PHOTOS</span>
-                        </div>
+<div class="col derecha">
+<h3>Work Experience</h3>
+<div class="item der">
+<span class="casa">OCP TECH</span>
+<h4>CISCO Renewal Engineer</h4>
+<span class="fecha">Dec 2024 - Present</span>
+<p>Manage and facilitate CISCO service and products contract renewals, software subscriptions, and corporate agreements. Focused on ensuring operational continuity, maximizing customer retention, and identifying opportunities for improvement or expansion.</p>
+<p class="subtitulo-item">Key Responsibilities:</p>
+<ul>
+<li>Manage the renewal process for contracts, subscriptions, and corporate agreements, from planning to finalization.</li>
+<li>Manage the complete renewal cycle for Cisco contracts and licenses, ensuring continuity of critical services.</li>
+<li>Monitor key renewal dates for contracts such as Smart Net Total Care (SNTC), Success Tracks, Cisco DNA, Collaboration, Security, and other relevant portfolios.</li>
+<li>Analyze usage data and SLAs with tools such as Cisco Smart Account, CCW-R, PXP, and Cisco Ready, achieving efficiency improvements.</li>
+<li>Use Excel and other analytical tools to generate renewal reports, service coverage reports, and forecasts.</li>
+<li>Provide support to sales and pre-sales teams on renewals, licensing, and agreement alignment.</li>
+<li>Maintain up-to-date internal systems and platforms with accurate information on current and upcoming renewals.</li>
+<li>Ensure the correct application of Cisco's commercial policies, discounts, and approved renewal structures.</li>
+<li>Use analytics tools (such as Excel and Power BI) to monitor expirations, renewal volume, discounts, and retention trends.</li>
+<li>Automate repetitive tasks using scripts or basic API integrations, when necessary (e.g., in Python or Excel VBA).</li>
+<li>Support continuous process improvement through data-driven proposals.</li>
+</ul>
+<h4 class="separador">Presales Software Engineer</h4>
+<span class="fecha">Apr 2024 - Dec 2024</span>
+<p>Design and implement software solutions for data analysis, digital transformation, facial recognition, and AI that meet client requirements according to OCP TECH's product and service portfolio. Provide technical support to the sales team.</p>
+<p class="subtitulo-item">Key Responsibilities:</p>
+<ul>
+<li>Assist clients in making informed technology acquisition decisions based on their specific needs.</li>
+<li>Deliver presentations on technologies with a straightforward translation of their application to business areas.</li>
+<li>Adopt a consultative approach to understand client needs, presenting customized value propositions and use cases to address pain points.</li>
+<li>Develop technical proposals for clients, collaborating with the commercial team to align with client requirements.</li>
+<li>Work closely with the sales team to design and present technical products or IT solutions to clients.</li>
+<li>Document products, services, or IT solutions to effectively translate technological advantages into "commercial language."</li>
+<li>Prepare demonstrations and presentations on products or solutions.</li>
+<li>Oversee the implementation of proposed solutions, detailing the final design of the IT solution.</li>
+<li>Evaluate both in-house and competitor products on a technological scale to offer the best solutions to clients.</li>
+</ul>
+<div class="conectord"><div class="circulod"></div></div>
+</div>
 
-                    </div>
-                </div>
-            </div>
-            <h3>Programming Languages:</h3></br>
+<div class="item der">
+<span class="casa">Meet Marigold</span>
+<h4>Technical Producer - Technical Services/Campaign Solutions</h4>
+<span class="fecha">2022 - 2023</span>
+<ul>
+<li>Design and develop mobile responsive multi-channel marketing campaigns and templates using HTML, SQL, Groovy, CSS, JavaScript, and other web-based technologies.</li>
+<li>Platforms: Messaging, CheetahMail, Distributed Marketing, Loyalty, EDP, Experiences, Journey Designer.</li>
+<li>Tools: Postman, Email on Acid, Expression Web 4.</li>
+<li>Ticket platforms: Salesforce, JIRA.</li>
+<li>Provide proactive input during the discovery and development of requirements for campaign service implementations and other projects.</li>
+<li>Assist in the implementation of new clients on Cheetah Digital platforms. Guide and recommend the team and/or the client on how to optimize and take advantage of the capabilities of the platform.</li>
+<li>Identify ambiguities in the assets or instructions provided and ensure clarity.</li>
+<li>Assist the quality team in developing appropriate QA test plans for each dynamic solution.</li>
+<li>Communicate actively and effectively with clients to provide proof and complete necessary reviews.</li>
+<li>Interact with customers on assigned projects and answer status questions.</li>
+<li>Resolve customer issues, propose solutions, and escalate to the right person to the point of resolution.</li>
+<li>Develop and maintain robust documentation and client presentations as needed.</li>
+<li>Manage projects from start to finish, with little or no supervision.</li>
+</ul>
+<div class="conectord"><div class="circulod"></div></div>
+</div>
 
-            <table style="width:25%" class="center">
-                <tr>
-                    <ul>
-                        <td>
-                            <li>Java</li>
-                        </td>
-                        <td>
-                            <li>Python</li>
-                        </td>
-                    </ul>
-                </tr>
-                <tr>
-                    <ul>
-                        <td>
-                            <li>HTML</li>
-                        </td>
-                        <td>
-                            <li>CSS</li>
-                        </td>
-                    </ul>
-                </tr>
-                <tr>
-                    <ul>
-                        <td>
-                            <li>JavaScript</li>
-                        </td>
-                        <td>
-                            <li>ReactJS</li>
-                        </td>
-                    </ul>
-                </tr>
-                <tr>
-                    <ul>
-                        <td>
-                            <li>Bootstrap</li>
-                        </td>
-                        <td>
-                            <li>Context</li>
-                        </td>
-                    </ul>
-                </tr>
-                <tr>
-                    <ul>
-                        <td>
-                            <li>Flux</li>
-                        </td>
-                        <td>
-                            <li>Hooks</li>
-                        </td>
-                    </ul>
-                </tr>
+<div class="item der">
+<span class="casa">Movable Ink</span>
+<h4>Campaign Manager</h4>
+<span class="fecha">2021 · Professional Practice</span>
+<ul>
+<li>Build dynamic content with the company's platform using HTML/CSS/JavaScript.</li>
+<li>Answer and manage campaign tickets.</li>
+<li>Auto QA, make sure it meets all the requirements (zero errors).</li>
+<li>Ticket platforms: Salesforce, JIRA.</li>
+<li>Provide proactive input during the discovery and development of requirements for campaign service implementations and other projects.</li>
+<li>Track your time for each build.</li>
+<li>Manage a growing portfolio of client campaigns.</li>
+</ul>
+<div class="conectord"><div class="circulod"></div></div>
+</div>
 
-            </table>
-            </br></br>
-            <button>
-                <a href="https://github.com/Ricardo-Patino/WEB-PORTFOLIO-HTML-CSS-JS/blob/main/WEB-PORTFOLIO-HTML-CSS-JS/Resume Ricardo Patiño 2026.pdf" download="Resume Ricardo Patiño 2026.pdf" target="_blank" Currículo> Download <i class="fa-solid fa-download"></i>
-                    <span class="overlay"></span>
-            </button>
-            </div>
-    </section>
+<div class="item der">
+<span class="casa">Cisco - SYKES Costa Rica</span>
+<h4>Cisco Network Support Engineer</h4>
+<span class="fecha">2018 - 2021</span>
+<ul>
+<li>With great customer service provide technical support and product information.</li>
+<li>Open support cases and escalate them as needed to higher engineers/architects.</li>
+<li>Configure network access profiles.</li>
+<li>Network, software, and product configuration to ensure that devices and company products work on the customer's Internet/Wi-Fi environment.</li>
+<li>Network and wireless analysis to improve device performance on Wi-Fi systems.</li>
+<li>Home networks troubleshooting and configuration, router settings and internet security.</li>
+<li>Phone and email support for CISCO products.</li>
+<li>Help coworkers to clarify questions and guide them on the correct internal process and help them to provide support to the final users.</li>
+<li>Analyze network, software, and hardware issues to get to the root cause of the network problem and fix it.</li>
+<li>Technical and end-user support.</li>
+<li>Follow up with customers until the issue is solved.</li>
+</ul>
+<div class="conectord"><div class="circulod"></div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECCION SKILLS -->
-    <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>REACT-JS LIBRARIES</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>CMS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Communication</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Teamwork</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creativity</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>100%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedication</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>100%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Proyect Management</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- PORTFOLIO + PUBLICACIONES -->
+<section id="portfolio" class="portfolio">
+<div class="contenido-seccion">
+<h2>PORTFOLIO</h2>
+<div class="galeria">
+<div class="proyecto">
+<img src="https://th.bing.com/th/id/OIP.pnNI2yRwdjE1E-m7TnjfGAHaHa?pid=ImgDet&rs=1" alt="Hotel Villa Grace website" loading="lazy">
+<div class="overlay"><a href="https://rickpatinor.wixsite.com/hotelvillagrace" target="_blank" rel="noopener noreferrer"><h3>Hotel Villa Grace</h3><p>Live working web page</p></a></div>
+</div>
+<div class="proyecto">
+<img src="https://th.bing.com/th/id/OIP.a_X7f7W93W9ejZAHgK_JsAHaEM?pid=ImgDet&w=500&h=283&rs=1" alt="GitHub projects" loading="lazy">
+<div class="overlay"><a href="https://github.com/Ricardo-Patino?tab=repositories" target="_blank" rel="noopener noreferrer"><h3>GitHub</h3><p>Projects</p></a></div>
+</div>
+<div class="proyecto">
+<img src="https://mir-s3-cdn-cf.behance.net/projects/808/94e4a495912955.Y3JvcCwxNjg0LDEzMTcsMCww.png" alt="Videos portfolio" loading="lazy">
+<div class="overlay"><a href="https://rickpatinor-youtube.netlify.app/" target="_blank" rel="noopener noreferrer"><h3>Portfolio</h3><p>Videos</p></a></div>
+</div>
+<div class="proyecto">
+<img src="https://wallpaperaccess.com/full/1205484.jpg" alt="Tetris game" loading="lazy">
+<div class="overlay"><a href="https://tetris-by-ricardopatino.netlify.app/" target="_blank" rel="noopener noreferrer"><h3>Tetris</h3><p>By Ricardo Patiño</p></a></div>
+</div>
+</div>
 
-    <!-- SECCION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Education</h3>
+<h3 class="subtitulo-portfolio" id="publicaciones">Publications</h3>
+<div class="publicaciones">
 
-                    <div class="item izq">
-                        <h4>Full-Stack Software Develoment</h4>
-                        <span class="casa">4Geeks Academy</span>
-                        <span class="fecha">2021</span>
-                        <p>Full-Stack development course.
-                            </br>Academic Grid:
-                            </br></br>
-                        <ul>
-                            <li>HMTL+CSS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>ReactJS</li>
-                            <li>Context</li>
-                            <li>Flux</li>
-                            <li>Hooks</li>
-                            <li>Python</li>
-                            <li>Flask</li>
-                            <li>REST API's</li>
-                            <li>SQLalchemy</li>
-                            <li>Algorithms</li>
-                        </ul></br>
+<article class="publicacion" lang="es">
+<div class="pub-meta"><span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 08/2025</span><span class="pub-medio">TechMinds · OCP</span></div>
+<h4>IoT Industrial: el camino hacia la sostenibilidad inteligente</h4>
+<p>Cómo la transformación digital y el IoT industrial permiten a las empresas operar de forma más eficiente y sostenible.</p>
+<span class="pub-link pub-link--off"><i class="fa-regular fa-clock"></i> Link coming soon</span>
+</article>
 
+<article class="publicacion" lang="es">
+<div class="pub-meta"><span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 08/2025</span><span class="pub-medio">Leafnoise</span></div>
+<h4>Automatización de procesos</h4>
+<p>La verdadera transformación digital implica claridad en tareas y responsabilidades. Con iBPM y herramientas como Moorea, es posible ordenar procesos, reducir errores y aumentar productividad sin grandes inversiones.</p>
+<span class="pub-link pub-link--off"><i class="fa-regular fa-clock"></i> Link coming soon</span>
+</article>
 
-                        <p>Institution Licensed by the United States Department of Education and selected by the Ministry of Science, Technology and Telecommunications of Costa Rica.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>CISCO Networking</h4>
-                        <span class="casa">CISCO ACADMEDY</span>
-                        <span class="fecha">2015 - 2016</span>
-                        <p>CISCO Networking</br>
-                            </br>
-                            Networking / Internet
-                            Skills: Networking, VLANS, WLAN, Network security.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Business Administration</h4>
-                        <span class="casa">Latina Universidad - Costa Rica</span>
-                        <span class="fecha">2007 - 2010</span>
-                        <p> Professional development in the area of administration. Finance, Marketing, Accounting, Management, HR.
-                            </br></br>Skills: Small business management · Project management · Sales Management</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
+<article class="publicacion" lang="es">
+<div class="pub-meta"><span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 07/2025</span><span class="pub-medio">infofranquicias.ar</span></div>
+<h4>Del caos al orden: cómo mejorar el trabajo diario en las empresas</h4>
+<p>Las empresas están conectadas, pero muchas aún dependen de procesos manuales. La transformación digital no puede ser solo pasar del papel a la computadora.</p>
+<a class="pub-link" href="https://infofranquicias.ar/y-ademas-2/del-caos-al-orden-como-mejorar-el-trabajo-diario-en-las-empresas-argentinas" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-newspaper"></i> Read article <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</article>
 
+<article class="publicacion" lang="es">
+<div class="pub-meta"><span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 06/2025</span><span class="pub-medio">Ciudadano News</span></div>
+<h4>Automatización y teletrabajo: claves para modernizar la empresa</h4>
+<p>Ricardo Patiño de OCP TECH reflexiona sobre la transformación digital y la resistencia al cambio. La clave: ver la automatización como un aliado que potencia el trabajo humano, no que lo reemplaza.</p>
+<a class="pub-link" href="https://youtu.be/prMVvusQF2Q?si=GuuOmUpLlQhKFoSU" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-play"></i> Watch interview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</article>
 
-                <div class="col derecha">
-                    <h3>Work Experience</h3>
+<article class="publicacion" lang="es">
+<div class="pub-meta"><span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 04/2025</span><span class="pub-medio">negociosyplacer.com</span></div>
+<h4>Confianza online, cómo construirla en estos tiempos</h4>
+<p>La identidad digital ha dejado de ser un acceso puntual en un momento preciso y se está convirtiendo en una experiencia continua.</p>
+<a class="pub-link" href="https://negociosyplacer.com/confianza-online-como-construirla/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-newspaper"></i> Read article <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</article>
 
-                    <div class="item der">
-                        <span class="casa">OCP TECH</span>
+</div>
+</div>
+</section>
 
+<!-- CONTACTO -->
+<section id="contacto" class="contacto">
+<div class="contenido-seccion">
+<h2>CONTACT</h2>
+<div class="fila">
+<div class="col">
+<form action="https://formsubmit.co/el/jojule" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Nuevo Correo!">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="name" placeholder="Name / Nombre" required>
+<input type="text" name="phone" placeholder="Phone / Teléfono">
+<input type="email" name="email" placeholder="Email / Correo" required>
+<input type="text" name="subject" placeholder="Concern / Tema" required>
+<textarea name="message" rows="8" placeholder="Message / Mensaje" required></textarea>
+<input type="file" name="attachment" accept="image/png, image/jpeg">
+<button type="submit">Enviar <i class="fa-solid fa-paper-plane"></i><span class="overlay"></span></button>
+</form>
+</div>
+<div class="col">
+<img src="https://th.bing.com/th/id/OIP.Xl33AAWnwUNysT_nFRsUEgHaHa?pid=ImgDet&rs=1" alt="Map of Heredia, Costa Rica" loading="lazy">
+<div class="info">
+<ul>
+<li>
+<i class="fa-solid fa-location-dot"></i>
+<h3>Heredia, Costa Rica.</h3>Choose a tool.
+<div class="showtheway">Heredia, Costa Rica<a href="https://showtheway.io/to/10.006607,-84.11201" target="_blank" rel="noopener noreferrer" title="Show the Way to 10.006607,-84.11201 with your favorite navigation application"></a></div>
+<script src="https://showtheway.io/w.js" async></script>
+</li>
+<li><i class="fa-solid fa-mobile-screen"></i><a href="tel:+50688795100">Call +506 88795100</a></li>
+<li><i class="fa-solid fa-envelope"></i><a href="mailto:rickpatinor@gmail.com">rickpatinor@gmail.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-                        <h4>CISCO Renewal Engineer</h4>
-                        <span class="fecha">Dec 2024 - Actually</span>
-                        <p></br>
-                        <ul>
-                            <p>Manage and facilitate CISCO service and products contract renewals, software subscriptions, and corporate agreements. Focused on ensuring operational continuity, maximizing customer retention, and identifying opportunities for improvement or expansion.</p>
-                            </br>
-                            </br>
-                            <p>Key Responsibilities:</p>
-                            </br>
-
-                            <li>Manage the renewal process for contracts, subscriptions, and corporate agreements, from planning to finalization.</li>
-                            <li>Manage the complete renewal cycle for Cisco contracts and licenses, ensuring continuity of critical services.</li>
-                            <li>Monitor key renewal dates for contracts such as Smart Net Total Care (SNTC), Success Tracks, Cisco DNA, Collaboration, Security, and other relevant portfolios.</li>
-                            <li>Analyze usage data and SLAs with tools such as Cisco Smart Account, CCW-R, PXP, and Cisco Ready, achieving efficiency improvements.</li>
-                            <li>Use Excel and other analytical tools to generate renewal reports, service coverage reports, and forecasts.</li>
-                            <li>Provide support to sales and pre-sales teams on renewals, licensing, and agreement alignment.</li>
-                            <li>Maintain up-to-date internal systems and platforms with accurate information on current and upcoming renewals.</li>
-                            <li>Ensure the correct application of Cisco's commercial policies, discounts, and approved renewal structures.</li>
-                            <li>Use analytics tools (such as Excel and Power BI) to monitor expirations, renewal volume, discounts, and retention trends.</li>
-                            <li>Automate repetitive tasks using scripts or basic API integrations, when necessary (e.g., in Python or Excel VBA).</li>
-                            <li>Support continuous process improvement through data-driven proposals.</li>
-
-                        </ul>
-                        </br>
-                        </br>
-
-                        <h4>Presales Software Engineer</h4>
-                        <span class="fecha">Apr 2024 - Dec 2024</span>
-                        <p></br>
-                        <ul>
-                            <p>Design and implement software solutions for data analysis, digital transformation, facial recognition, and AI that meet client requirements according to OCP TECH's product and service portfolio. Provide technical support to the sales team.</p>
-                            </br>
-                            </br>
-                            <p>Key Responsibilities:</p>
-                            </br>
-                            <li>Assist clients in making informed technology acquisition decisions based on their specific needs.</li>
-                            <li>Deliver presentations on technologies with a straightforward translation of their application to business areas.</li>
-                            <li>Adopt a consultative approach to understand client needs, presenting customized value propositions and use cases to address pain points.</li>
-                            <li>Develop technical proposals for clients, collaborating with the commercial team to align with client requirements.</li>
-                            <li>Work closely with the sales team to design and present technical products or IT solutions to clients.</li>
-                            <li>Document products, services, or IT solutions to effectively translate technological advantages into "commercial language."</li>
-                            <li>Prepare demonstrations and presentations on products or solutions.</li>
-                            <li>Oversee the implementation of proposed solutions, detailing the final design of the IT solution.</li>
-                            <li>Evaluate both in-house and competitor products on a technological scale to offer the best solutions to clients.
-                        </ul>
-                        </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-
-                    <div class="item der"></br>
-
-                        <span class="casa">Meet Marigold</span>
-                        <h4>Technical Producer - Technical Services/Campaign Solutions</h4>
-
-                        <span class="fecha">2022 - 2023</span>
-                        <p></br>
-                        <ul>
-                            <li>Design and develop mobile responsive multi-channel marketing campaigns and templates using; HTML, SQL, Groovy, CSS, JavaScript, and other web-based technologies.</li>
-                            <li>Platforms: Messaging, CheetahMail, Distributed Marketing, Loyalty, EDP, Experiences, Journey Designer.</li>
-                            <li>Tools: Postman, Email on Acid, Expression Web 4.</li>
-                            <li>Ticket platforms: Salesforce, JIRA.</li>
-                            <li>Provide proactive input during the discovery and development of requirements for campaign service implementations and other projects.</li>
-                            <li>Assist in the implementation of new clients on Cheetah Digital platforms. Guide and recommend the team and/or the client on how to optimize and take advantage of the capabilities of the platform.</li>
-                            <li>Identify ambiguities in the assets or instructions provided and ensure clarity.</li>
-                            <li>Assist the quality team in developing appropriate QA test plans for each dynamic solution.</li>
-                            <li>Communicate actively and effectively with clients to provide proof and complete necessary reviews. </li>
-                            <li>Interact with customers on assigned projects and answer status questions. </li>
-                            <li>Resolve customer issues, propose solutions, and escalate the right person to the point of resolution. </li>
-                            <li>Develops and maintains robust documentation and client presentations as needed. </li>
-                            <li>Manage projects from start to finish, with little or no supervision.</li>
-                        </ul>
-                        </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Campaign Manager</h4>
-                        <span class="casa">Movable Ink</span>
-                        <p>Professional Practice</p>
-                        <span class="fecha">2021</span>
-                        <p></br>
-                        <ul>
-                            <li>Build dynamic content with the company’s platform using: HTML/CSS/JavaScript.</li>
-                            <li>Answer and manage campaign tickets.</li>
-                            <li>Auto QA, make sure it meets all the requirements (zero errors).</li>
-                            <li>Ticket platforms: Salesforce, JIRA.</li>
-                            <li>Provide proactive input during the discovery and development of requirements for campaign service implementations and other projects.</li>
-                            <li>Track your time for each build.</li>
-                            <li>Manage a growing portfolio of client campaigns.</li>
-                        </ul>
-                        </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Cisco Network Support Engineer</h4>
-                        <span class="casa">Cisco - SYKES Costa Rica</span>
-                        <span class="fecha">2018 - 2021</span>
-                        <p></br>
-                        <ul>
-                            <li>With great customer service provide technical support and product information.</li>
-                            <li>Open Support cases and escalate them as needed to higher engineers/architects.</li>
-                            <li>Configure Network access profiles.</li>
-                            <li>Network, software, and product configuration to assure, that devices and company´s products work on the Customer´s Internet/wifi environment.</li>
-                            <li>Network and wireless analysis to improve device´s performance on Wifi systems.</li>
-                            <li>Home networks troubleshooting and configuration, router settings and internet security.</li>
-                            <li>With excellent customer service provide support and product information.</li>
-                            <li>Phone and email support for CISCO Products.</li>
-                            <li>Help coworkers to clarify questions and guide them on the correct internal process and help them to provide support to the final users.</li>
-                            <li>Analyze network, software, and hardware issues to get to the root cause of the network problem and fix it.</li>
-                            <li>Technical and end-user support.</li>
-                            <li>Follow up with customers until the issue is solved.</li>
-                        </ul>
-                        </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <style>
-                img {
-                    max-width: 100%;
-                    max-height: 100%;
-                }
-
-                .proyecto {
-                    width: 200px;
-                    height: 300px;
-                }
-            </style>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="https://th.bing.com/th/id/OIP.pnNI2yRwdjE1E-m7TnjfGAHaHa?pid=ImgDet&rs=1" alt="Web del Hotel">
-                    <div class="overlay">
-                        <a href="https://rickpatinor.wixsite.com/hotelvillagrace">
-                            <h3>Hotel Villa Grace</h3>
-                            <p>life working Web Page</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="https://th.bing.com/th/id/OIP.a_X7f7W93W9ejZAHgK_JsAHaEM?pid=ImgDet&w=500&h=283&rs=1" alt="Proyects/Portfolio">
-                    <div class="overlay">
-                        <a href="https://github.com/Ricardo-Patino?tab=repositories">
-                            <h3>GIT HUB</h3>
-                            <p>PROYECTS</p>
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="proyecto">
-                    <img src="https://mir-s3-cdn-cf.behance.net/projects/808/94e4a495912955.Y3JvcCwxNjg0LDEzMTcsMCww.png" alt="Portafolio">
-                    <div class="overlay">
-                        <a href="https://rickpatinor-youtube.netlify.app/">
-                            <h3>Portafolio</h3>
-                            <p>Videos Portafolio</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto">
-                    <img src="https://wallpaperaccess.com/full/1205484.jpg" alt="Portafolio">
-                    <div class="overlay">
-                        <a href="https://tetris-by-ricardopatino.netlify.app/">
-                            <h3>Tetris</h3>
-                            <p>By Ricardo Patino</p>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- PUBLICACIONES -->
-            <h3 class="subtitulo-portfolio">Publications</h3>
-            <div class="publicaciones">
-
-                <article class="publicacion">
-                    <div class="pub-meta">
-                        <span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 04/2025</span>
-                        <span class="pub-medio">negociosyplacer.com</span>
-                    </div>
-                    <h4>Confianza online, cómo construirla en estos tiempos</h4>
-                    <p>La identidad digital ha dejado de ser un acceso puntual en un momento preciso y se está convirtiendo en una experiencia continua.</p>
-                    <a class="pub-link" href="https://negociosyplacer.com/confianza-online-como-construirla/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-newspaper"></i> Leer artículo <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-                <article class="publicacion">
-                    <div class="pub-meta">
-                        <span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 08/2025</span>
-                        <span class="pub-medio">TechMinds - OCP</span>
-                    </div>
-                    <h4>IoT Industrial: el camino hacia la sostenibilidad inteligente</h4>
-                    <p>Cómo la transformación digital y el IoT industrial permiten a las empresas operar de forma más eficiente y sostenible.</p>
-                    <!-- TODO: reemplazar "#" por el link correcto de este artículo -->
-                    <a class="pub-link" href="https://negociosyplacer.com/confianza-online-como-construirla/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-newspaper"></i> Leer artículo <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-                <article class="publicacion">
-                    <div class="pub-meta">
-                        <span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 07/2025</span>
-                        <span class="pub-medio">infofranquicias.ar</span>
-                    </div>
-                    <h4>Del caos al orden: cómo mejorar el trabajo diario en las empresas</h4>
-                    <p>Las empresas están conectadas, pero muchas aún dependen de procesos manuales. La transformación digital no puede ser solo pasar del papel a la computadora.</p>
-                    <a class="pub-link" href="https://infofranquicias.ar/y-ademas-2/del-caos-al-orden-como-mejorar-el-trabajo-diario-en-las-empresas-argentinas" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-newspaper"></i> Leer artículo <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-                <article class="publicacion">
-                    <div class="pub-meta">
-                        <span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 08/2025</span>
-                        <span class="pub-medio">Leafnoise</span>
-                    </div>
-                    <h4>Automatización de procesos</h4>
-                    <p>La verdadera transformación digital implica claridad en tareas y responsabilidades. Con iBPM y herramientas como Moorea, es posible ordenar procesos, reducir errores y aumentar productividad sin grandes inversiones.</p>
-                    <!-- TODO: reemplazar "#" por el link correcto de este artículo -->
-                    <a class="pub-link" href="https://infofranquicias.ar/y-ademas-2/del-caos-al-orden-como-mejorar-el-trabajo-diario-en-las-empresas-argentinas" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-newspaper"></i> Leer artículo <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-                <article class="publicacion">
-                    <div class="pub-meta">
-                        <span class="pub-fecha"><i class="fa-regular fa-calendar"></i> 06/2025</span>
-                        <span class="pub-medio">Ciudadano News</span>
-                    </div>
-                    <h4>Automatización y teletrabajo: claves para modernizar la empresa</h4>
-                    <p>Ricardo Patiño de OCP TECH reflexiona sobre la transformación digital y la resistencia al cambio. La clave: ver la automatización como un aliado que potencia el trabajo humano, no que lo reemplaza.</p>
-                    <a class="pub-link" href="https://youtu.be/prMVvusQF2Q?si=GuuOmUpLlQhKFoSU" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-solid fa-circle-play"></i> Ver entrevista <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </article>
-
-            </div>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACT</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <form action="https://formsubmit.co/el/jojule" method="POST"> <!-- el/jojule se puede remover y poner el correo donde quiera que lleguen las respuestas -->
-                        <input type="hidden" name="_subject" value="Nuevo Correo!">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="text" placeholder="Name / Nombre" required>
-                        <input type="text" placeholder="Phone / Teléfono">
-                        <input type="email" name="email" placeholder=" Email / Correo" required>
-                        <input type="text" placeholder="Concern / Tema" required>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message / Mensaje"></textarea>
-                        <input type="file" name="attachment" accept="image/png, image/jpeg">
-                        <button onclick="alert('Email sent! I will get back to as soon as possible!');">
-                            Enviar <i class="fa-solid fa-paper-plane"></i>
-                            <span class="overlay"></span>
-                        </button>
-
-                    </form>
-
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="https://th.bing.com/th/id/OIP.Xl33AAWnwUNysT_nFRsUEgHaHa?pid=ImgDet&rs=1" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                <h3>Heredia, Costa Rica.</h3>Choose a tool.
-                                <div class="showtheway">Heredia, Costa Rica<a href="https://showtheway.io/to/10.006607,-84.11201" target="_blank" title="Show the Way to 10.006607,-84.11201 with your favorite navigation application"></a></div>
-                                <script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                <a href="tel:+50688795100">Call +506 88795100</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:rickpatinor@gmail.com" class="pv-contact-info__contact-link link-without-visited-state t-14" target="_blank" rel="noopener noreferrer"> rickpatinor@gmail.com </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.facebook.com/ricardo.p.jimenez.5"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://wa.me/+50688795100"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/in/ricardopatino1/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://rickpatinor.wixsite.com/hotelvillagrace"><i class="fa-solid fa-globe"></i></a>
-            <a href="https://github.com/Ricardo-Patino?tab=repositories"><i class="fa-brands fa-github"></i></a>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<footer>
+<a href="#inicio" class="arriba" aria-label="Back to top"><i class="fa-solid fa-angles-up"></i></a>
+<div class="redes">
+<a href="https://www.facebook.com/ricardo.p.jimenez.5" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="https://wa.me/+50688795100" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+<a href="https://www.linkedin.com/in/ricardopatino1/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="https://rickpatinor.wixsite.com/hotelvillagrace" aria-label="Website" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i></a>
+<a href="https://github.com/Ricardo-Patino?tab=repositories" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+</div>
+</footer>
+<script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
